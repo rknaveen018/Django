@@ -1,0 +1,3 @@
+1. to create a project use: django-admin startproject mysite
+2. to start the server use (once server is create we will get server address and database): python manage.py runserver
+3. to create an app use: python manage.py startapp challenges
