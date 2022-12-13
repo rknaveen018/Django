@@ -22,4 +22,3 @@ def month_view(request, months):
         return HttpResponse(month_name[months])
     else:
         return HttpResponseNotFound("Try with different text")
-
