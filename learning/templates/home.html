@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    {% block content %}
+    <h1>Calculator</h1>
+    {% for action in actions %}
+    <ul>
+        <li><a href={{action}}>{{action}}</a></li>
+    </ul>
+    
+    {% endfor %}
+    {% endblock %}
+
+</body>
+</html>
